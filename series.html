@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srulad.Co Style Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="registration.html">registrartion</a>
-    <a href="home.html">home</a>
-    <a href="films.html">film</a>
-    <a href="series.html">series</a>
-    <a href="animation.html">animation</a>
-    <a href="blog.html">blog</a>
-    <script src="script.js"></script>
-    ფილტრი <br>
-    ჟანრი <br>
-    კატეგორია <br>
-    წელი <br>
-    IMDB რეიტინგი <br>
-    
+  <header class="header">
+    <div class="logo">Srulad.Co</div>
+    <div class="search-bar">
+      <button>🔍</button>
+      <input type="text" placeholder="მოძებნე ფაილი">
+      
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <ul>
+        <li>სარეგისტრაციო</li>
+        <li><a href="mtavari.html">მთავარიa</a></li>
+        <li><a href="films.html">ფილმები</a></li>
+        <li style="color: blue;">სერიალები</li>
+        <li><a href="animation.html">ანიმაციური ფილმები</a></li>
+        <li><a href="blog.html">ბლოგი</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <h1>სერიალები ქართულად</h1>
+      <div class="movie-carousel">
+        <div class="movie">
+          <img src="movie1.jpg" alt="Movie 1">
+          <p>Love Actually</p>
+        </div>
+        <div class="movie">
+          <img src="movie2.jpg" alt="Movie 2">
+          <p>The Polar Express</p>
+        </div>
+        <!-- Add more movies -->
+      </div>
+    </main>
+  </div>
 </body>
 </html>
