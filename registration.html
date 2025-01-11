@@ -3,32 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Srulad.com</title>
+    <title>Srulad.co</title>
+    <link rel="website icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-    <header>
-        <div class="logo">Srulad.co</div>
-        <div class="search-container">
-            <div class="search-icon">
-              🔍
-            </div>
-            <input type="text" class="search-input" placeholder="მოძებნე ფაილი">
-          </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">მთავარი</a></li>
-                <li><a href="registration.html">რეგისტრაცია</a></li>
-                <li><a href="films.html">ფილმები</a></li>
-                <li><a href="animation.html">ანიმაციური ფილმები </a></li>
-                <li><a href="series.html">სერიალები</a></li>
-                <li><a href="blog.html">ბლოგები</a></li>
-            </ul>
-        </nav>
-    </header>
-
   
+  <header class="main-header">
+    <div class="movie-search-bar">
+        <button class="search-btn">🔍</button>
+        <input type="text" class="search-input" placeholder="მოძებნე ფილმი">
+    </div>
+    <div class="brand-logo">
+        <a href="mtavari.html"><img src="logo.png"></a>
+    </div>
+ </header>
+    
+      <div class="container">
+        <aside class="sidebar">
+          <ul>
+            <li><a href="mtavari.html">მთავარი</a></li>
+            <li><a href="registration.html" style="color: rgb(67, 132, 205);">რეგისტრაცია</a></li>
+            <li><a href="login.html">ავტორიზაცია</a></li>
+            <li><a href="films.html" >ფილმები</a></li>
+            <li><a href="series.html">სერიალები</a></li>
+            <li><a href="animation.html">ანიმაციური ფილმები</a></li>
+            <li><a href="blog.html">ბლოგი</a></li>
+          </ul>
+        </aside>
+        <br><br>
+        <section class="regcontainer">
+          <header>რეგისტრაცია</header>
+          <form action="#" class="form">
+              <div class="input-box">
+                  <label>მომხმარებლის სახელი</label>
+                  <input type="text" required />
+              </div>
+              <div class="input-box">
+                  <label>ემაილი</label>
+                  <input type="text"  required />
+              </div>
+              <div class="column"> 
+                <div class="input-box">
+                    <label>პაროლი</label>
+                    <input type="password"  required />
+                </div>
+                <div class="input-box">
+                    <label>დაადასტურეთ პაროლი</label>
+                    <input type="password" required />
+                </div>
+              </div>
+              <div class="column">
+                  <div class="input-box">
+                      <label>ტელეფონის ნომერი</label>
+                      <input type="number"required />
+                  </div>
+                  <div class="input-box">
+                      <label>რეგისტრაციის თარიღი</label>
+                      <input type="date"  required />
+                  </div>
+              </div>
+              <div class="column">
+                <div class="input-box">
+                  <label class="lng-country">ქვეყანა</label>
+                  <input type="text">
+                </div>
+                <div class="input-box">
+                  <label class="lng-city">ქალაქი</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="gender-box">
+                <h3>სქესი</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">მამრობითი</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">მდედრობითი</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">სხვა</label>
+                    </div>
+                </div>
+            </div>
+              <button>შექმნა</button>
+          </form>
+      </section>
+
+
+
+
+</div>
    
+  
+
+
+
+
+
 </body>
 </html>

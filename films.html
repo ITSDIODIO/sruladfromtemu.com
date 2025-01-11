@@ -3,44 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Srulad.Co Style Page</title>
+  <title>Srulad.co</title>
+  <link rel="website icon" href="logo.png">
+  <link rel="website icon" href="palitralogo.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="logo">Srulad.Co</div>
-    <div class="search-bar">
-      <button>🔍</button>
-      <input type="text" placeholder="მოძებნე ფაილი">
-      
+  
+  <header class="main-header">
+    <div class="movie-search-bar">
+        <button class="search-btn">🔍</button>
+        <input type="text" class="search-input" placeholder="მოძებნე ფილმი">
     </div>
-  </header>
+    <div class="brand-logo">
+        <a href="mtavari.html"><img src="logo.png"></a>
+    </div>
+ </header>
 
-  <div class="container">
-    <aside class="sidebar">
-      <ul>
-        <li>სარეგისტრაციო</li>
-        <li><a href="mtavari.html">მთავარი</a></li>
-        <li style="color: blue;">ფილმები</li>
-        <li><a href="series.html">სერიალები</a></li>
-        <li><a href="animation.html">ანიმაციური ფილმები</a></li>
-        <li><a href="blog.html">ბლოგი</a></li>
-      </ul>
-    </aside>
-    <main class="main-content">
-      <h1>ფილმები ქართულად</h1>
-      <div class="movie-carousel">
-        <div class="movie">
-          <img src="movie1.jpg" alt="Movie 1">
-          <p>Love Actually</p>
+ <div class="container">
+  <aside class="sidebar">
+    <ul>
+      <li><a href="mtavari.html">მთავარი</a></li>
+      <li><a href="registration.html">რეგისტრაცია</a></li>
+      <li><a href="login.html">ავტორიზაცია</a></li>
+      <li ><a href="films.html" style="color: rgb(67, 132, 205);">ფილმები</a></li>
+      <li><a href="series.html">სერიალები</a></li>
+      <li><a href="animation.html">ანიმაციური ფილმები</a></li>
+      <li><a href="blog.html">ბლოგი</a></li>
+    </ul>
+  </aside>
+  
+  <div class="movie-section">
+    <h2>ფილმები ქართულად </h2>
+  <div class="movie-carousel">
+      <div class="movie-card">
+        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8718286_p_v8_af.jpg">
+        <div class="movie-rating">IMDB: 5.7</div>
+        <h3>(2011) ახალი წელი</h3>
+        <p>მელოდრამა, კომედია</p>
+        <div class="movie-actions">
+            <button>მოწონება</button>
+            <a href="https://srulad.com/movie/1012-new-year-s-eve-axali-wlis-wina-dre.html"><button>ყურება</button></a>
         </div>
-        <div class="movie">
-          <img src="movie2.jpg" alt="Movie 2">
-          <p>The Polar Express</p>
+    </div>
+  <div class="movie-card">
+        <img src="https://raisingchildren.net.au/__data/assets/image/0026/51497/frozen.jpg">
+        <div class="movie-rating">IMDB: 7.5</div>
+        <h3>(2013) გაყინული - FROZEN</h3>
+        <p>სათავგადასავლო</p>
+        <div class="movie-actions">
+            <button>მოწონება</button>
+            <a href="https://srulad.com/movie/1891-frozen-gayinuli.html"><button>ყურება</button></a>
         </div>
-        <!-- Add more movies -->
+    </div>
+  <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/M/MV5BODhmZTRjZWYtNGI5MC00YjgyLWFhODEtN2E4NTc2Zjg2ZmNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+        <div class="movie-rating">IMDB: 6.5</div>
+        <h3>(2011) დიდი გამყინვარება</h3>
+        <p>საბავშვო, საოჯახო</p>
+        <div class="movie-actions">
+            <button>მოწონება</button>
+            <a href=""><button>ყურება</button></a>
+        </div>
+    </div>
+    <div class="movie-card">
+      <img src="https://m.media-amazon.com/images/M/MV5BNzNmNmQ2ZDEtMTc1MS00NjNiLThlMGUtZmQxNTg1Nzg5NWMzXkEyXkFqcGc@._V1_.jpg">
+      <div class="movie-rating">IMDB: 7.5</div>
+      <h3>(1990) მარტო სახლში </h3>
+      <p>კრიმინალური, კომედია</p>
+      <div class="movie-actions">
+          <button>მოწონება</button>
+          <a href="https://srulad.com/movie/1012-new-year-s-eve-axali-wlis-wina-dre.html"><button>ყურება</button></a>
       </div>
-    </main>
   </div>
+
+  <div class="movie-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-soPrvWA2dBAD_vRTgxl4Yvh_FqEMTqjiA&s">
+      <div class="movie-rating">IMDB: 6.9</div>
+      <h3>(2001)ჯადოსნური შობა მიკისთან</h3>
+      <p>სათავგადასავლო</p>
+      <div class="movie-actions">
+          <button>მოწონება</button>
+          <a href="https://srulad.com/movie/5804-mickey-s-magical-christmas-snowed-in-at-the-house-of-mouse-jadosnuri-soba-mikistan.html"><button>ყურება</button></a>
+      </div>
+  </div>
+
+   <div class="movie-card">
+      <img src="https://m.media-amazon.com/images/M/MV5BZmEwNDg0M2QtMDdiNy00YTliLTk4ZjctOThjZjczODVmMTdkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+      <div class="movie-rating">IMDB: 8.0</div>
+      <h3>(2006)შვებულება</h3>
+      <p>დრამა, მელოდრამა, კომედია</p>
+      <div class="movie-actions">
+          <button>მოწონება</button>
+          <a href="https://srulad.com/movie/813-the-holiday-svebuleba.html"><button>ყურება</button></a>
+      </div>
+      </div>
+     </div>
+    </div>
+  </div> 
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
