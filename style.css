@@ -493,3 +493,135 @@ border-radius: 3px;
 .card p {
   margin: 10px;
 }
+.cookies {
+  position: fixed;
+  bottom: 50px; 
+  right: 35px; 
+  max-width: 345px; 
+  width: 100%; 
+  background: #fff; 
+  border-radius: 8px; 
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+  z-index: 9999; 
+}
+.cookies {
+  display: none;
+}
+.cookies.show {
+  display: block;  /* Show the cookie box */
+}
+.cookies .show {
+  right: 20px; /* Slight adjustment for visibility */
+}
+.cookies header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.cookies  header i {
+  color:  #2196f3;
+  font-size: 32px;
+}
+.cookies header h2 {
+  color: #2196f3;
+  font-weight: 500;
+}
+.cookies .data {
+  margin-top: 16px;
+}
+.cookies .data p {
+  color: #333;
+  font-size: 16px;
+}
+.cookies .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons .button {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background:  #2196f3;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+.buttons #acceptBtn:hover {
+  background-color:  #2196f3;
+}
+#declineBtn {
+  border: 2px solid  #2196f3;
+  background-color: #fff;
+  color:  #2196f3;
+}
+#declineBtn:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+.movie-slider {
+  width: 100%;
+  overflow: hidden; /* მხოლოდ ხილული ფილმები გამოჩნდეს */
+  position: relative;
+}
+
+.movie-list {
+  display: flex;
+  transition: transform 0.3s ease-in-out; /* სლაიდის ეფექტი */
+}
+
+.movie-card {
+  flex: 0 0 200px; /* თითო ფილმის სიგანე */
+  margin: 10px;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#loadMore {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+#loadMore:hover {
+  background: #1976d2;
+}
+.language-switcher {
+  position: fixed;
+  bottom: 20px;  
+  left: 20px;   
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  z-index: 999;  
+}
+
+.language-switcher button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.language-switcher button:hover {
+  background-color: #186cb0;
+}

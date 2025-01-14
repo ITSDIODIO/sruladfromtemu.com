@@ -9,6 +9,7 @@
 </head>
 <body>
     
+
     <header class="main-header">
         <div class="movie-search-bar">
             <button class="search-btn">🔍</button>
@@ -29,6 +30,8 @@
             <li><a href="series.html">სერიალები</a></li>
             <li><a href="animation.html">ანიმაციური ფილმები</a></li>
             <li><a href="blog.html">ბლოგი</a></li>
+        <li><a href="about.html">ჩვენს შესახებ </a></li>
+
           </ul>
         </aside>
 
@@ -52,15 +55,26 @@
                 </div>
             </form>
         </div>
- </div>        
+ </div> 
+        
 
-
+<div class="language-switcher">
+        <button onclick="changelanguage(`en`)">ENG</button>
+        <button onclick="changelanguage(`ka`)">ქართ</button>
+      </div>
+      <section class="content">
+        <h1 id="signin-title">Sign In</h1>
+        <p id="username-label">Username or Email</p>
+        <p id="password-label">Password</p>
+        <button id="signin-btn">Log In</button>
+        <p id="remember-label">Remember me</p>
+    </section>
 
 
      
+<script src="script.js"></script>
 
-
-
+ 
 
 </body>
 </html>
